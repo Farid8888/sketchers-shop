@@ -1,0 +1,23 @@
+.pos{
+  margin-left: -20px;
+  width: calc(100% + 40px)
+}
+
+.subTx {
+font-family: $gotham;
+font-size: 14px;
+font-weight: 500;
+}
+
+.subPr{
+font-family: $gotham;
+font-size: 14px;
+font-weight: 500;
+color: $secondary;
+}
+
+.ty{
+    color: $tertiary;
+    margin-top: 24px;
+
+}

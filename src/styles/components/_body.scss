@@ -1,0 +1,74 @@
+.bd {
+  width: 1600px;
+}
+
+.btx {
+  font-family: $gotham;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.desc {
+  padding-top: 24px;
+}
+
+.tx-buy {
+  width: 184px;
+  font-family: $gotham;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+.rd-tx {
+  font-family: $gotham;
+  color: $rd;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+
+.lr-tx {
+  font-family: $gotham;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.tr-tx {
+  font-family: $gotham;
+  line-height: 16px;
+  text-align: left;
+}
+
+.bg {
+  padding: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: $btn-ter;
+  color: $tertiary;
+  font-family: $gotham;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+}
+
+.char {
+  width: 302px;
+}
+
+@media (max-width: 1280px) {
+  .char {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .bd {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}

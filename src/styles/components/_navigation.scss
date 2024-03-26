@@ -1,0 +1,72 @@
+.header {
+  padding-bottom: 20px;
+}
+.r{
+  color: $rd;
+}
+.text-main {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: $text-pr;
+  font-family: $gotham;
+  width: 81px;
+  height: 16px;
+}
+
+.fontPr {
+  font-family: "Gotham", sans-serif;
+}
+
+.wd {
+  width: 400px;
+  padding: 8px 12px;
+  height: 38;
+}
+
+.avr {
+  width: 169px;
+  height: 32px;
+}
+
+@media (min-width: 1400px) {
+  .wd {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .wd {
+    width: 731px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .wd {
+    width: 900px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .wd {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .wd {
+    width: 1100px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .wd {
+    width: 1200px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .wd {
+    width: 1700px;
+  }
+}

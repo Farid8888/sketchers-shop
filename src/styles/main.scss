@@ -1,0 +1,8 @@
+@import './variables/index.scss';
+@import './components/index.scss';
+@import './UI/index.scss';
+
+body{
+    background-color:$primary !important;
+    padding: 20px !important; 
+}
